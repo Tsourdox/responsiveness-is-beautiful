@@ -1,0 +1,8 @@
+.fa-stack .cornered-lr {
+	position: absolute;
+	bottom: 0.4em !important;
+    right: 1.1em;
+    line-height: 1em;
+    text-shadow: 0px 0px 1px #000, 0px 0px 3px black, 0px 0px 5px black;
+    font-size: 0.7em;
+}

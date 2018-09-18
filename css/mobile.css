@@ -1,0 +1,69 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    background-color: rgb(250, 255, 255);
+    font-size: 1em;
+}
+
+
+header {
+    position: fixed;
+    left: 0; top: 0; right: 0;
+    background-color: rgb(50, 50, 50);
+    transition: height 500ms 0ms;
+    height: 3.4em;
+    overflow: hidden;
+}
+
+header.fullscreen {
+    height: 100%;
+}
+
+header .menu-icon {
+    padding: 0.7em;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+header .menu-title {
+    display: inline-block;
+}
+
+header * {
+    color: azure;
+    text-decoration: none;
+}
+
+header ul {
+    padding: 0;
+}
+
+header ul li {
+    list-style: none;
+    text-align: center;
+    
+    opacity: 0;
+    font-size: 2em;
+    transition: opacity 500ms 0ms;
+}
+
+header ul li.show {
+    opacity: 1;
+}
+
+header .text-size-icon {
+    float: right;
+    padding-top: 0.3em;
+    padding-left: 0.5em;
+    cursor: pointer;
+}
+
+.page-content {
+    margin: 5em 1em 0 1em;
+}
+
+.page-content section {
+    margin: 3em 0;
+}
